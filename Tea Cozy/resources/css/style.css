@@ -1,0 +1,135 @@
+/* Universal Code*/
+*{
+  font-family: helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+body {
+  margin: 0;
+}
+
+/* Header Code*/
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  margin-top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: left;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+  color: seashell;
+}
+
+header nav {
+  padding-right: 40px;
+}
+/*Body Code*/
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+/*Our Mission Code*/
+
+.content #mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.banner {
+  width: 100%;
+  opacity: 1;
+}
+
+/*Tea of the Month Code*/
+#featured .types{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 1000px;
+}
+
+#featured h4 {
+  margin-top: 10px;
+}
+
+#featured .month {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.teas img{
+  width: 300px;
+  height: 200px;
+  margin: 0px 10px;
+}
+
+/*Locations Code*/
+
+.content #locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin-top: 75px;
+}
+
+#locations .locations{
+  background-color: transparent;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+#locations .addresses{
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  opacity: 1;
+  background-color: transparent;
+}
+
+.addresses hgroup {
+width: 300px;
+margin: 15px 20px 0 20px;
+padding-top: 0px;
+
+}
+
+/*Footer Code*/
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+
+footer .copyright{
+  align-self: flex-start;
+  margin-left: 20px;
+}
